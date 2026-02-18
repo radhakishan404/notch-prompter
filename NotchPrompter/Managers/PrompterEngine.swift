@@ -54,10 +54,9 @@ final class PrompterEngine: ObservableObject {
     
     private func scheduleTimer() {
         timer?.invalidate()
-        let speed = appState?.scrollSpeed ?? AppSettings.defaultScrollSpeed
         let interval = 1.0 / 60.0 // ~60 fps for smooth scroll
-        timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { [weak self] _ in
-            Task { @MainActor in
+        timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { _ in
+            Task { @MainActor [weak self] in
                 self?.tick()
             }
         }
