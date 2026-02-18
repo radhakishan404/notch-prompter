@@ -6,6 +6,12 @@
 
 A native macOS teleprompter that stays aligned to the notch/camera area, so you can read scripts naturally during calls, demos, and recordings.
 
+## Product Preview
+
+![Notch Prompter sample interface](docs/assets/notchprompter-preview.svg)
+
+_Illustrative preview of the app layout and notch-aligned prompter position._
+
 ## Live Site
 
 - Vercel landing page: https://notch-prompter.vercel.app

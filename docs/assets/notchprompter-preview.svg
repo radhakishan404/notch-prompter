@@ -1,0 +1,76 @@
+<svg width="1400" height="820" viewBox="0 0 1400 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1621"/>
+      <stop offset="1" stop-color="#111F2D"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1C2B3A"/>
+      <stop offset="1" stop-color="#172432"/>
+    </linearGradient>
+    <linearGradient id="prompter" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#161D26" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0E131A" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="haloA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 140) rotate(15) scale(420 240)">
+      <stop stop-color="#5EE4B4" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#5EE4B4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 200) rotate(-18) scale(360 220)">
+      <stop stop-color="#FFB36A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFB36A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="190" y="45" width="1020" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <ellipse cx="320" cy="140" rx="420" ry="240" fill="url(#haloA)"/>
+  <ellipse cx="1180" cy="200" rx="360" ry="220" fill="url(#haloB)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="230" y="85" width="940" height="630" rx="26" fill="#0B1016"/>
+    <rect x="248" y="112" width="904" height="561" rx="18" fill="url(#panel)" stroke="#33485E"/>
+
+    <rect x="248" y="112" width="904" height="44" rx="18" fill="#121C28"/>
+    <circle cx="280" cy="134" r="6" fill="#EF6A5D"/>
+    <circle cx="300" cy="134" r="6" fill="#F2C14E"/>
+    <circle cx="320" cy="134" r="6" fill="#67C561"/>
+    <rect x="548" y="120" width="304" height="28" rx="9" fill="#1A2A3A"/>
+    <text x="700" y="139" fill="#9CB3C8" text-anchor="middle" font-size="12" font-family="'SF Mono', 'Menlo', monospace">NotchPrompter • Script Session</text>
+
+    <rect x="300" y="170" width="800" height="48" rx="20" fill="url(#prompter)" stroke="#4D6379"/>
+    <rect x="650" y="170" width="100" height="16" rx="0" fill="#0A0F15"/>
+    <rect x="664" y="177" width="72" height="5" rx="2.5" fill="#2A3644"/>
+
+    <text x="700" y="202" fill="#EBF2FB" text-anchor="middle" font-size="20" font-family="'SF Pro Display', 'Segoe UI', sans-serif" letter-spacing="0.3">Welcome to Notch Prompter</text>
+
+    <rect x="300" y="260" width="800" height="360" rx="16" fill="#132334" stroke="#36516A"/>
+    <text x="700" y="316" fill="#AFC0D1" text-anchor="middle" font-size="17" font-family="'SF Mono', 'Menlo', monospace">Read naturally while staying on camera.</text>
+    <text x="700" y="354" fill="#AFC0D1" text-anchor="middle" font-size="17" font-family="'SF Mono', 'Menlo', monospace">Adjust speed, font, and opacity live.</text>
+    <text x="700" y="392" fill="#AFC0D1" text-anchor="middle" font-size="17" font-family="'SF Mono', 'Menlo', monospace">Hide from screen sharing when needed.</text>
+
+    <rect x="350" y="472" width="220" height="70" rx="12" fill="#1C2D40"/>
+    <rect x="590" y="472" width="220" height="70" rx="12" fill="#1C2D40"/>
+    <rect x="830" y="472" width="220" height="70" rx="12" fill="#1C2D40"/>
+
+    <text x="460" y="498" fill="#78DDB5" text-anchor="middle" font-size="14" font-family="'SF Pro Display', 'Segoe UI', sans-serif">Scroll Speed</text>
+    <text x="700" y="498" fill="#78DDB5" text-anchor="middle" font-size="14" font-family="'SF Pro Display', 'Segoe UI', sans-serif">Font Size</text>
+    <text x="940" y="498" fill="#78DDB5" text-anchor="middle" font-size="14" font-family="'SF Pro Display', 'Segoe UI', sans-serif">Opacity</text>
+
+    <rect x="390" y="514" width="140" height="8" rx="4" fill="#2F4459"/>
+    <rect x="390" y="514" width="84" height="8" rx="4" fill="#60DDAF"/>
+    <circle cx="474" cy="518" r="7" fill="#E7FDF5"/>
+
+    <rect x="630" y="514" width="140" height="8" rx="4" fill="#2F4459"/>
+    <rect x="630" y="514" width="96" height="8" rx="4" fill="#60DDAF"/>
+    <circle cx="726" cy="518" r="7" fill="#E7FDF5"/>
+
+    <rect x="870" y="514" width="140" height="8" rx="4" fill="#2F4459"/>
+    <rect x="870" y="514" width="120" height="8" rx="4" fill="#60DDAF"/>
+    <circle cx="990" cy="518" r="7" fill="#E7FDF5"/>
+  </g>
+
+  <text x="700" y="778" fill="#93A9BE" text-anchor="middle" font-size="18" font-family="'SF Pro Display', 'Segoe UI', sans-serif">Illustrative preview of Notch Prompter UI</text>
+</svg>

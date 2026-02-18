@@ -167,6 +167,28 @@ h1 {
   font-size: 0.86rem;
 }
 
+.preview-card {
+  margin: 22px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(160deg, rgba(17, 26, 34, 0.88), rgba(14, 21, 29, 0.9));
+  box-shadow: var(--shadow);
+}
+
+.preview-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.preview-card figcaption {
+  margin: 0;
+  padding: 12px 14px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
 .grid {
   margin-top: 22px;
   display: grid;
