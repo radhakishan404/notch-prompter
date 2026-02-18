@@ -1,6 +1,6 @@
 # Notch Prompter
 
-[![CI](https://github.com/radhakishanjangid/notch-prompter/actions/workflows/ci.yml/badge.svg)](https://github.com/radhakishanjangid/notch-prompter/actions/workflows/ci.yml)
+[![CI](https://github.com/radhakishan404/notch-prompter/actions/workflows/ci.yml/badge.svg)](https://github.com/radhakishan404/notch-prompter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%2013%2B-black)](https://www.apple.com/macos)
 
@@ -23,7 +23,7 @@ A native macOS teleprompter that stays aligned to the notch/camera area, so you 
 ## Quick Start
 
 ```bash
-git clone https://github.com/radhakishanjangid/notch-prompter.git
+git clone https://github.com/radhakishan404/notch-prompter.git
 cd notch-prompter
 open NotchPrompter.xcodeproj
 ```
