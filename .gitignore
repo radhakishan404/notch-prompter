@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Build outputs
+build/
+DerivedData/
+*.dSYM/
+*.dmg
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Editors
+.vscode/
+.idea/
+
+# Local tool/state
+.claude/
+
+# Logs
+*.log
