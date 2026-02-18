@@ -6,6 +6,11 @@
 
 A native macOS teleprompter that stays aligned to the notch/camera area, so you can read scripts naturally during calls, demos, and recordings.
 
+## Live Site
+
+- Vercel landing page: https://web-liard-two-34.vercel.app
+- Latest release downloads: https://github.com/radhakishan404/notch-prompter/releases/latest
+
 ## Highlights
 
 - Notch-aligned floating window
