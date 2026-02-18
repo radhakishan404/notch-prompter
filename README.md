@@ -8,7 +8,7 @@ A native macOS teleprompter that stays aligned to the notch/camera area, so you 
 
 ## Live Site
 
-- Vercel landing page: https://web-liard-two-34.vercel.app
+- Vercel landing page: https://notch-prompter.vercel.app
 - Latest release downloads: https://github.com/radhakishan404/notch-prompter/releases/latest
 
 ## Highlights
