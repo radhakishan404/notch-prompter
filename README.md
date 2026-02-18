@@ -20,6 +20,16 @@ A native macOS teleprompter that stays aligned to the notch/camera area, so you 
 - macOS 13.0+
 - Xcode 15.0+ (for development)
 
+## Download And Install
+
+Install from the latest release:
+
+1. Open the [latest release](https://github.com/radhakishan404/notch-prompter/releases/latest).
+2. Download `NotchPrompter.dmg`.
+3. Open the DMG and drag `NotchPrompter.app` to `Applications`.
+4. Launch the app.
+5. Grant Accessibility permission when prompted so global shortcuts work in other apps.
+
 ## Quick Start
 
 ```bash
@@ -58,6 +68,7 @@ xcodebuild \
 ## Documentation
 
 - [Setup](docs/SETUP.md)
+- [Installation Guide](INSTALL.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Project Structure](docs/PROJECT_STRUCTURE.md)
 - [Window Management](docs/WINDOW_MANAGEMENT.md)

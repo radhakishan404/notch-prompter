@@ -23,6 +23,7 @@ Package.resolved
 
 # Local tool/state
 .claude/
+.vercel/
 
 # Logs
 *.log

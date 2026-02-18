@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notch Prompter | Native macOS Teleprompter</title>
+  <meta name="description" content="A notch-aligned native macOS teleprompter built for calls, demos, and recordings." />
+  <meta property="og:title" content="Notch Prompter" />
+  <meta property="og:description" content="Read naturally on calls with a notch-aligned teleprompter." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://notchprompter.vercel.app" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+
+  <header class="topbar">
+    <div class="logo">Notch Prompter</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="https://github.com/radhakishan404/notch-prompter" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Native macOS app</p>
+      <h1>Read naturally while staying on camera.</h1>
+      <p class="subtitle">
+        Notch Prompter keeps your script where your webcam is. It is lightweight, private, and built for fast-paced calls, demos, and video recordings.
+      </p>
+      <div class="cta-row">
+        <a id="download-btn" class="btn btn-primary" href="https://github.com/radhakishan404/notch-prompter/releases/latest" target="_blank" rel="noreferrer">Download DMG</a>
+        <a class="btn btn-secondary" href="https://github.com/radhakishan404/notch-prompter" target="_blank" rel="noreferrer">View Source</a>
+      </div>
+      <p id="release-meta" class="meta">Loading latest release details...</p>
+    </section>
+
+    <section id="features" class="grid three-up">
+      <article class="card rise">
+        <h2>Notch-aligned reading</h2>
+        <p>Script sits close to your camera line for better eye contact and fewer obvious glance shifts.</p>
+      </article>
+      <article class="card rise delay-1">
+        <h2>Live controls</h2>
+        <p>Adjust speed, font size, and playback from anywhere with global keyboard shortcuts.</p>
+      </article>
+      <article class="card rise delay-2">
+        <h2>Privacy by design</h2>
+        <p>Enable hide-from-screen-share mode so your prompter does not appear in recordings or meetings.</p>
+      </article>
+    </section>
+
+    <section class="split">
+      <div class="panel">
+        <p class="eyebrow">What this gives you</p>
+        <h3>Confident delivery, less cognitive load.</h3>
+        <ul>
+          <li>Keep your key points visible without memorizing scripts.</li>
+          <li>Stay focused during investor pitches, sales demos, and tutorials.</li>
+          <li>Use one app that feels native and does not depend on cloud services.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">How it works</p>
+        <ol>
+          <li>Paste your script into the editor window.</li>
+          <li>Tune speed, width, height, and opacity.</li>
+          <li>Play from your menu bar while presenting.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="install" class="install">
+      <p class="eyebrow">Installation</p>
+      <h3>Install in 4 steps</h3>
+      <ol>
+        <li>Download the latest <code>.dmg</code> using the button above.</li>
+        <li>Open the DMG and drag <code>NotchPrompter.app</code> into <code>Applications</code>.</li>
+        <li>Launch the app from Applications.</li>
+        <li>Grant Accessibility permission when prompted to enable global shortcuts.</li>
+      </ol>
+      <p class="meta">macOS 13+ required.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with SwiftUI and AppKit. Open source under MIT.</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
